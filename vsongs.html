@@ -1,0 +1,200 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Songs</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .menu ul {
+            background: black;
+            list-style: none;
+        }
+
+        .menu ul li {
+            color: white;
+            display: inline-block;
+            margin-left: 40px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        span {
+            margin: 0 0px;
+            font-size: 28px;
+            cursor: pointer;
+            display: none;
+            width: 100%;
+        }
+
+        .thumnail {
+            background: url(s1.jpeg);
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+            background-size: contain;
+            height: 150px;
+
+
+        }
+
+        .icon {
+            padding: 112px;
+            opacity: .0;
+        }
+
+
+        .icon:hover {
+            opacity: 0.9;
+
+        }
+
+        .thumnail1 {
+            background: url("s2.jpeg");
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 5px;
+            width: 150px;
+            background-size: contain;
+            height: 150px;
+        }
+
+        .section {
+            display: flex;
+            margin: 8px;
+            align-items:
+        }
+
+        .section>div {
+            margin: 25px;
+            padding: 30px;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-size: cover;
+            width: 300px;
+            height: 300px;
+        }
+            .raxtern {
+            font-size: 100px;
+            font-weight: bold;
+        }
+
+        #bottom {
+            background: black;
+            color: white;
+            margin-top: 100px;
+        }
+
+        .support {
+            margin-top: 20px;
+        }
+
+        .sm {
+            font-size: 50px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+
+        .sm a {
+            margin: 10px;
+
+        }
+        .remix h1{
+        	border-bottom: 5px solid black;
+        	margin: 20px;
+        }
+        .remix video{
+        	margin-left: 50px;
+        	width: 400px;
+        	height: 200px;
+        	border:2px solid black;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="menu-right">
+
+            <span onclick="myFunction()">&#9776;</span>
+            <ul id="menu">
+                <li><a href="rax.html">HOME</a></li>
+                <li><a href=vsongs.html>SONGS</li>
+
+                <li><a href="https://www.youtube.com/channel/UCriTXbD3EKxrYSlzdiwhe6Q" target="_blank">YOUTUBE CHANNEL</a></li>
+                <li><a href="Aboutraxtern.html"> ABOUT US</a></li>
+                <li><a href="#bottom">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="section">
+            
+                <div class="thumnail">
+
+                    <div class="icon">
+                      <a href="song2.html" target="_blank">  <center><i class="fa fa-5x fa-play-circle" aria-hidden="true"></i>
+                        </center>
+                        </a>
+                    </div>
+                    
+
+        </div>
+        <div class="thumnail1">
+            <div class="icon">
+               <a href="songs.html" target="_blank"><center><i class="fa fa-5x fa-play-circle" aria-hidden="true"></i>
+                </center>
+                </a> 
+            </div>
+        </div>
+    </div>
+    <div class="remix">
+    	<center><h1>REMIXES</h1></center>
+    	<video controls poster="2r.jpeg">
+    		<source src="https://youtu.be/oRhfC_WHMIo" type="video/mp4">
+        </video>
+        <video controls poster="2r.jpeg">
+    		<source src="#" type="video/mp4">
+        </video>
+        <video controls poster="2r.jpeg">
+    		<source src="#" type="video/mp4">
+        </video>
+        <video controls poster="2r.jpeg">
+    		<source src="#" type="video/mp4">
+        </video>
+    </div>
+    <div id="bottom">
+    <center>
+        <h1 class="support">SUPPORT US</h1>
+    </center>
+    <center>
+        <h1 class="raxtern">Raxtern</h1>
+    </center>
+    <div class="sm">
+        <a href="#"><i class="fa fa-facebook-official"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="raxternstar420@gmail.com
+"><i class="fa fa-envelope"></i></a>
+    </div>
+</div>
+
+</body>
+
+</html>

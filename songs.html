@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>songs</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            overflow-x: hidden;
+        }
+
+        .btn {
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 12px 30px;
+            cursor: pointer;
+            font-size: 20px;
+        }
+
+        .btn:hover {
+            background-color: RoyalBlue;
+        }
+
+        .download {
+            text-align: center;
+        }
+
+        .menu ul {
+            background: black;
+            list-style: none;
+        }
+
+        .menu ul li {
+            color: white;
+            display: inline-block;
+            margin-left: 40px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        span {
+            margin: 0 0px;
+            font-size: 28px;
+            cursor: pointer;
+            display: none;
+            width: 100%;
+        }
+
+        .raxtern {
+            font-size: 100px;
+            font-weight: bold;
+        }
+
+        #bottom {
+            background: black;
+            color: white;
+        }
+
+        .support {
+            margin-top: 20px;
+        }
+
+        .sm {
+            font-size: 50px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+
+        .sm a {
+            margin: 10px;
+
+        }
+
+        .tn {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            background-color: rgb(25, 230, 140);
+        }
+
+        .title {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        .title audio {
+            background-color: transparent;
+            margin-top: 20px;
+        }
+
+        h2 {
+            border-top: 2px solid black;
+            margin-top: 15px;
+            font-size: 30px;
+            font-weight: bold;
+
+        }
+
+        @media only screen and (max-width:670px) {
+            span {
+                display: block;
+                background: lightgreen;
+                margin: none;
+                padding: none;
+            }
+
+            .menu ul li {
+                display: block;
+                text-align: center;
+            }
+
+            .menu ul {
+                background: grey;
+                list-style: none;
+            }
+
+            .menu ul li {
+                color: white;
+                display: inline-block;
+            }
+
+            .menu ul li a {
+                text-decoration: none;
+            }
+
+            .title {
+                margin: 10px;
+                padding: 10px;
+                font-size: 12px;
+
+
+            }
+
+            .title audio {
+                background-color: transparent;
+                margin-top: 10px;
+            }
+
+            .tn {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                object-fit: contain;
+                background-color: rgb(25, 230, 140);
+            }
+        }
+
+        @media only screen and (max-width:768px) {
+            span {
+                display: block;
+                background: grey;
+                margin: none;
+                padding: none;
+
+            }
+
+            .menu ul li {
+                display: block;
+                text-align: center;
+
+            }
+
+            ul {
+                display: none;
+            }
+
+            .title {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            .title audio {
+                background-color: transparent;
+                margin-top: 20px;
+            }
+
+            img {
+                position: relative;
+                object-fit: cover;
+                margin: 0px;
+                padding: 0px;
+            }
+    </style>
+</head>
+
+<body>
+    <div class="menu">
+        <div class="menu-right">
+            <span onclick="myFunction()">&#9776;</span>
+            <ul id="menu1">
+                <li><a href="rax.html">HOME</a></li>
+                <li><a href="vsongs.html">SONGS</a></li>
+                <li><a href="https://www.youtube.com/channel/UCriTXbD3EKxrYSlzdiwhe6Q" target="_blank">YOUTUBE CHANNEL</a></li>
+                <li><a href="Aboutraxtern.html"> ABOUT US</a></li>
+                <li><a href="#bottom">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="tn">
+        <div>
+            <img src="1r.jpeg">
+        </div>
+        <div class="title">
+            <h1>Song: Launde khade sb sath hai (Lyrical)</h1>
+            <h1>Album-The Phase(10 songs)</h1>
+            <h1>Written & Vocals by: Hellven</h1>
+            <h1>Visuals by: Raxtern</h1>
+            <h1>Music: Raxtern & Hellven</h1>
+            <h1>Mix & Mastered by: Raxtern & Hellven</h1>
+            <center>
+                <h2>RAXTERN MUSIC</h2>
+            </center>
+            <center><audio controls preload="auto" download>
+                    <source src="music.mp3" type="audio/mp3">
+                </audio></center>
+
+            <div class="download">
+                <a href="Michael%20Jackson%20-%20Beat%20It%20(Official%20Video).mp3" download>
+                    <button class="btn"><i class="fa fa-download"></i> Download</button></a>
+            </div>
+
+        </div>
+    </div>
+    <div id="bottom">
+        <center>
+            <h1 class="support">SUPPORT US</h1>
+        </center>
+        <center>
+            <h1 class="raxtern">Raxtern</h1>
+        </center>
+        <div class="sm">
+            <a href="#"><i class="fa fa-facebook-official"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-linkedin"></i></a>
+            <a href="#"><i class="fa fa-youtube"></i></a>
+            <a href="raxternstar420@gmail.com
+"><i class="fa fa-envelope"></i></a>
+        </div>
+    </div>
+   
+
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("menu");
+            if (x.style.display == "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+
+        }
+    </script>
+
+</body></html>

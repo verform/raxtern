@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Life</title>
+	<meta charset="UTF=8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		*{
+			     margin:0;
+			     padding: 0;
+           box-sizing: border-box;
+           overflow-x: hidden;
+		}
+		.header{
+			text-align: center;
+			color:white;
+			position:relative;
+			margin-top: 40px;
+
+		}
+	.audio{
+			margin-top: 15px;
+		}
+
+		.header h1{
+			margin-bottom: 20px;
+      padding: 10px;
+      font-size: 40px;
+		}
+      .header h2{
+      margin-bottom: 20px;
+      padding: 10px;
+       font-size: 40px;
+    }
+		.header h1:hover{
+			color:lightgreen;
+		}
+		h2:hover{
+			color:lightgreen;	
+		}
+		
+
+          .img{
+            	background: url(https://images.pexels.com/photos/1916824/pexels-photo-1916824.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500) no-repeat center fixed;
+              height:700px;
+             	background-size: cover;  	
+         }
+         .menu ul{
+         	background:grey;
+         	list-style: none;
+         }
+           .menu ul li{
+           	color: white;
+          	display: inline-block;
+          	margin-left: 40px;	
+          	padding: 10px;
+          cursor: pointer;
+           }
+          .menu ul li a{
+           	text-decoration: none;
+            color: white;
+           }
+           span{
+           	margin:0 0px;
+           	font-size: 28px;
+           	cursor:pointer;
+           	display:none;
+            width: 100%;
+           }
+           
+           .raxtern{
+            font-size: 100px;
+            font-weight: bold;
+           }
+           #bottom{
+            background:black;
+            color:white;
+           }
+           .support{
+            margin-top: 20px;
+           }
+          .sm {
+            font-size: 50px;font-weight: bold;
+            display: flex;
+            justify-content: center;
+          }
+         .sm a{
+             margin:10px;
+          
+          }
+          .devloper{
+            width: 100%;
+            line-height: 100px;
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between;
+            font-size: 12px;
+            font-weight: bold;
+            flex-wrap: wrap;
+            font-size: 12px;
+            margin:15px;
+          
+          }
+            .d1 h1{
+                   border-bottom: 2px solid black;
+                      margin-right: 5px;
+                     }
+                     .d1 img{
+                      padding:0px 5px;
+                      border-radius: 50%
+                     }
+                     .dsm {
+            font-size: 30px;font-weight: bold;
+            display: flex;
+            justify-content: center;
+          }
+         .dsm a{
+             margin: 0px 5px;  
+          }
+          .d2 h1{
+            border-bottom: 2px solid black;
+            margin:3px;
+          }
+           .d2 img{
+                      padding:0px 3px;
+                      border-radius: 50%
+                     }
+          .d3 h1{
+            border-bottom: 2px solid black;
+          }
+            .d3 img{
+                      padding:0px 5px;
+                      border-radius: 50%
+                     }
+                      .d4 h1{
+            border-bottom: 2px solid black;
+          }
+          .d4 img{
+                      padding: 0px 5px;
+                      border-radius: 50%
+                     }
+           @media only screen and (max-width:670px){
+           	span{
+           		display:block;
+           		background: lightgreen;
+           		margin:none;
+           		padding:none;
+            	}
+            .header h1{
+             margin-bottom: 10px;
+             padding: 5px;
+             font-size: 20px;
+             }
+          .header h2{
+          margin-bottom: 10px;
+          padding: 5px;
+          font-size: 20px;
+          }
+            .header h1:hover{
+           color:lightgreen;
+           }
+           h2:hover{
+           color:lightgreen; 
+          }
+           	.menu ul li{
+           		display:block;
+           		text-align: center;
+           	}
+           
+            .menu ul{
+          background:grey;
+          list-style: none;
+         }
+           .menu ul li{
+            color: white;
+            display: inline-block;
+           }
+        .menu ul li a{
+            text-decoration: none;
+           }
+           .devloper {
+              width:100%;
+              justify-content: center;
+              position:relative;
+              object-fit: cover;
+              margin:0;
+              padding: 0;
+            }
+           } 
+            @media only screen and (max-width:768px){
+           	span{
+           		display:block;
+           		background: grey;
+           		margin:none;
+           		padding:none;
+
+           	}
+           	.menu ul li{
+           		display:block;
+           		text-align: center;
+
+           	}
+           	ul{
+           		display:none;
+           	}
+            .devloper {
+              width:100%;
+              justify-content: center;
+              position:relative;
+              object-fit: cover;
+              margin:0;
+              padding: 0;
+            }
+           
+           } 
+           
+           
+
+   </style>
+</head>
+<body>
+  <div class="menu">
+  <div class="menu-right">
+    
+    <span onclick="myFunction()">&#9776;</span>
+  <ul id="menu">
+    <li ><a href="rax.html">HOME</a></li>
+      <li><a href="vsongs.html">SONGS</a></li>
+   
+    <li><a href="https://www.youtube.com/channel/UCriTXbD3EKxrYSlzdiwhe6Q" target="_blank">YOUTUBE CHANNEL</a></li>
+    <li><a href="Aboutraxtern.html"> ABOUT US</a></li>
+    <li><a href="#bottom">CONTACT US</a></li>
+  </ul> 
+</div>
+ </div>
+	 <div class="img">
+ <div class="header">
+ 	<h1>We Can't Live On Without Rhythm</h1>
+ 	<h1>THERE IS SUBTLE DIFFERENCE BETWEEN MUSIC AND NOISE</h1>
+ <CENTER><H2>WE SPREAD REMEDIES</H2></CENTER>
+ <audio class="audio" controls autoplay loop>
+ 	<source src="music.mp3" type="audio/mp3">
+ 	</audio>
+ 
+ </div>
+ </div>
+ <div class="devloper">
+   <div class="d1">
+     <h1 >RAPER & COMPOSER</h1>
+     <img src="s1.jpg">
+        <center><h2>FOLLOW US</h2></center>
+       <div class="dsm">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+   </div>
+   <div class="d2">
+     <h1>ARTIST &EDITOR</h1>
+     <img src="r1.jpg">
+     <center><h2>FOLLOW US</h2></center>
+     <div class="dsm">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+   </div>
+   <div class="d3">
+     <center><h1>DEVLOPER</h1></center>
+     <img src="v2.jpg">
+       <center><h2>FOLLOW US</h2></center>
+      <div class="dsm">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+   </div>
+   <div class="d4">
+      <center><h1>DEVLOPER</h1></center>
+     <img src="a1.jpg">
+        <center><h2>FOLLOW US</h2></center>
+     <div class="dsm">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+    </div>
+   </div>
+ </div>
+  <div id="bottom">
+   <center><h1 class="support">SUPPORT US</h1></center>
+  <center> <h1 class="raxtern">Raxtern</h1></center>
+  <div class="sm">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+      <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+         <a href="raxternstar420@gmail.com
+"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    </div>
+ </div>
+ 
+ 
+
+<script type="text/javascript">
+	function myFunction(){
+		var x=document.getElementById("menu");
+		if(x.style.display=="block"){
+			x.style.display="none";
+		}
+		else{
+			x.style.display="block";
+		}
+		
+	}
+</script>
+</body>
+</html>

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>About us</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        body {
+            background-repeat: no-repeat; 
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        .menu ul {
+            background: black;
+            list-style: none;
+        }
+
+        .menu ul li {
+            color: white;
+            display: inline-block;
+            margin-left: 40px;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .menu ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        span {
+            margin: 0 0px;
+            font-size: 28px;
+            cursor: pointer;
+            display: none;
+            width: 100%;
+        }
+
+
+
+        .img {
+            background-image: url("https://images.pexels.com/photos/1370545/pexels-photo-1370545.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 500px;
+
+        }
+
+        .text {
+            color: aliceblue;
+            padding: 200px;
+
+        }
+
+        .img2 {
+            float: left;
+            height:1050px;
+            overflow-y: hidden;
+
+        }
+
+        .description {
+            margin: 16px;
+            padding: 15px;
+            color: aliceblue;
+        }
+
+        .para {
+
+            font-size: 39px;
+            margin: 0px 10px;
+           background-color: blue;
+        }
+
+        .para h1 {
+            color: aliceblue;
+        }
+       
+.raxtern {
+            font-size: 100px;
+            font-weight: bold;
+        }
+
+        #bottom {
+            background: black;
+            color: white;
+          
+        }
+
+        .support {
+            margin-top: 20px;
+        }
+
+        .sm {
+            font-size: 50px;
+            font-weight: bold;
+            display: flex;
+            justify-content: center;
+        }
+
+        .sm a {
+            margin: 10px;
+
+        }
+
+           
+
+        @media only screen and (max-width:670px) {
+
+            section {
+                flex-wrap: wrap;
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                position: relative;
+                object-fit: cover;
+                margin: 0;
+                padding: 0;
+
+            }
+
+            .text h1 {
+                font-size: 16px;
+                font-weight: bold;
+
+            }
+
+            span {
+                display: block;
+                background: grey;
+                margin: none;
+                padding: none;
+            }
+
+            .menu ul li {
+                display: block;
+                text-align: center;
+            }
+
+            .menu ul {
+                background: grey;
+                list-style: none;
+            }
+
+            .menu ul li {
+                color: white;
+                display: block;
+            }
+
+            .menu ul li a {
+                text-decoration: none;
+            }
+        }
+    
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="menu">
+        <div class="menu-right">
+            <span onclick="myFunction()">&#9776;</span>
+            <ul id="menu">
+                <li><a href="rax.html">HOME</a></li>
+                <li><a href="vsongs.html">SONGS</a></li>
+                <li><a href="https://www.youtube.com/channel/UCriTXbD3EKxrYSlzdiwhe6Q" target="_blank">YOUTUBE CHANNEL</a></li>
+                <li><a href="Aboutraxtern.html">ABOUT US</a></li>
+                <li><a href="#bottom">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="img">
+        <div class="text">
+            <center>
+                <h1>“Without music, life would be a mistake” ― Friedrich Nietzsche.</h1>
+            </center>
+
+        </div>
+
+    </div>
+    <section>
+        <div class="img2">
+
+            <img src="https://images.pexels.com/photos/1010519/pexels-photo-1010519.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+        </div>
+
+        <div class=" para">
+            <h1 style="text-align:center ">ABOUT US</h1>
+            <p>We are team of engineerings who encourage art.</p>
+            <p>We believe in connecting the world through raw art and creativity. </p>
+            <p>Rap is a vocal technique that emphasizes rhyme, rhythm, and individual expression. Rap is one component of hip-hop subculture, alongside break dancing, graffiti, and DJing. As the most well-known aspect of hip-hop, rap is one of the most important forms of American popular culture.Music is an art form, and cultural activity, whose medium is sound. General definitions of music include common elements such as pitch (which governs melody and harmony), rhythm (and its associated concepts tempo, meter, and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the "color" of a musical sound). Different styles or types of music may emphasize, de-emphasize or omit some of these elements. Music is performed with a vast range of instruments and vocal techniques ranging from singing to rapping; there are solely instrumental pieces, solely vocal pieces (such as songs without instrumental accompaniment) and pieces that combine singing and instruments. The word derives from Greek μουσική (mousike; "art </p>
+
+        </div>
+          <div id="bottom">
+    <center>
+        <h1 class="support">SUPPORT US</h1>
+    </center>
+    <center>
+        <h1 class="raxtern">Raxtern</h1>
+    </center>
+    <div class="sm">
+        <a href="#"><i class="fa fa-facebook-official"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+        <a href="#"><i class="fa fa-youtube"></i></a>
+        <a href="raxternstar420@gmail.com
+"><i class="fa fa-envelope"></i></a>
+    </div>
+</div>
+    </section>
+    <script type="text/javascript">
+        function myFunction() {
+            var x = document.getElementById("menu");
+            if (x.style.display == "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+
+        }
+
+    </script>
+
+</body>
+
+</html>
