@@ -1,2 +1,3 @@
-# raxtern
+# Music Platform
+
 Raxtern:Music Platform
